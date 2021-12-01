@@ -1,6 +1,6 @@
 var i = 0;
 
-var myVar = setInterval(myTimer, 100);
+var myVar = setInterval(myTimer, 1000);
 
 function myTimer () {
 
@@ -20,7 +20,7 @@ function myTimer () {
 
             els[i].parentNode.removeChild(els[i]);
 
-        }, 10);
+        }, 500);
 
     }
 
