@@ -11,8 +11,8 @@ out = setTimeout(function () {
 if (document.querySelector('tp-yt-paper-listbox.style-scope.ytd-menu-popup-renderer').lastElementChild) { 
 document.querySelector('tp-yt-paper-listbox.style-scope.ytd-menu-popup-renderer').lastElementChild.click(); 
 } 
-}, 1); 
-await sleep(5); // sleep cause browser can not handle the process 
+}, 300); 
+await sleep(50); // sleep cause browser can not handle the process 
 clearTimeout(out); 
 } 
 } 
